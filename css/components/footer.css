@@ -1,0 +1,23 @@
+.footer {
+  background-color: rgb(33, 33, 33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer i {
+  color: #1DDD88;
+  font-size: 26px;
+  padding: 5px;
+}
+
+.made-with-love {
+  color: gray;
+  font-weight: 200;
+}
+
+.made-with-love i {
+  color: red;
+  font-size: 16px;
+}

@@ -1,0 +1,43 @@
+.banner {
+  background-image: url('../../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 200px;
+}
+
+@media (max-width: 400px) {
+  .banner {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .banner {
+    padding-left: 50px;
+  }
+}
+
+.banner-content h1 {
+  color: white;
+}
+
+.tagline {
+  color: rgba(202, 202, 202, 0.944);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.banner-content button {
+  border: none;
+  color: white;
+  font-size: 16px;
+  background-color: #1EDD88;
+  border-radius: 25px;
+  line-height: 50px;
+  min-width: 150px;
+}
